@@ -12,9 +12,9 @@
 ```
 ### 3. Right click on project in eclipse and then Maven -> Update Projects 
 
-### 4. Import src/main/java/resources/todo.sql into MySQL database
+### 4. Import `src/main/java/resources/todo.sql` into MySQL database and execute it
 
-### 5. Update database credential and other configuration into application.properties available in src/main/java/resources
+### 5. Update database credential and other configuration into application.properties available in `src/main/java/resources`
 
 ```
 
@@ -37,19 +37,19 @@ logging.level.org.hibernate.type.descriptor.sql.BasicBinder=TRACE
 ```
 ### 6. Right click on Application.java file and run as Java Application
 
-## Once Sprint Boot Application will be started successfully then we 
-can call following Endpoints by using POSTMAN
+## Once Sprint Boot Application will be started successfully 
+then we can call following Endpoints by using POSTMAN
 
-### 7. To get list of todos call following endpoint with GET Request
+### 7. To get list of todos call following endpoint with `GET` Request
 ```
   http://localhost:8080/todoservice/todos
 ```
-### 8.To Create New Todo use following url with POST Request
+### 8.To Create New Todo use following url with `POST` Request
 ```
   http://localhost:8080/todoservice/todos
 ```
-### set content type as in header as `application/json`
-### set request body as raw with JSON payload
+## set content type as in header as `application/json`
+## set request body as raw with JSON payload
 ```
   {
     "taskName": "test task ",
@@ -65,8 +65,8 @@ can call following Endpoints by using POSTMAN
 ```
 	http://localhost:8080/todoservice/todos/<id>
 ```
-### set content type as in header as `application/json`
-### set request body as raw with JSON payload
+## set content type as in header as `application/json`
+## set request body as raw with JSON payload
 
 ```
  {

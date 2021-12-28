@@ -45,7 +45,7 @@ then we can call following Endpoints by using POSTMAN
   http://localhost:8080/todoservice/todos
 ```
 #### Response
-![alt text](https://github.com/Manigandan21/Todo-CRUD-springboot-mysql/blob/master/src/main/screenshots/getTodos.jpg?raw=true)
+![alt text](https://github.com/Manigandan21/Todo-CRUD-springboot-mysql/blob/master/src/main/screenshots/getTodos.JPG)
 
 ### 8.To Create New Todo use following url with `POST` Request
 ```
@@ -60,14 +60,14 @@ then we can call following Endpoints by using POSTMAN
   }
 ```
 #### Response
-![alt text](https://github.com/Manigandan21/Todo-CRUD-springboot-mysql/blob/master/src/main/screenshots/postTodo.jpg?raw=true)
+![alt text](https://github.com/Manigandan21/Todo-CRUD-springboot-mysql/blob/master/src/main/screenshots/postTodo.jpg)
 
 ### 9.To get a particular todo, use following url with `GET` request type in postman
 ```
   http://localhost:8080/todoservice/todos/<id>
 ```
 #### Response
-![alt text](https://github.com/Manigandan21/Todo-CRUD-springboot-mysql/blob/master/src/main/screenshots/getTodoId.jpg?raw=true)
+![alt text](https://github.com/Manigandan21/Todo-CRUD-springboot-mysql/blob/master/src/main/screenshots/getTodoId.jpg)
 
 ### 10.To update Todo in database, use following url with `PUT` request type in postman
 ```
@@ -83,13 +83,13 @@ then we can call following Endpoints by using POSTMAN
   }
 ```
 #### Response
-![alt text](https://github.com/Manigandan21/Todo-CRUD-springboot-mysql/blob/master/src/main/screenshots/putTodo.jpg?raw=true)
+![alt text](https://github.com/Manigandan21/Todo-CRUD-springboot-mysql/blob/master/src/main/screenshots/putTodo.jpg)
 
 ### 11.To delete a particular Todo from database, use following url with `DELETE` request type in postman
 ```
   http://localhost:8080/todoservice/todos/<id>
 ```
 #### Response
-![alt text](https://github.com/Manigandan21/Todo-CRUD-springboot-mysql/blob/master/src/main/screenshots/deleteTodo.jpg?raw=true)
+![alt text](https://github.com/Manigandan21/Todo-CRUD-springboot-mysql/blob/master/src/main/screenshots/deleteTodo.jpg)
 
 #### Note - Replace <id> with actual id 

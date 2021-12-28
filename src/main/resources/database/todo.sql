@@ -1,5 +1,4 @@
 -- Host: localhost
--- Generation Time: Oct 06, 2017 at 07:55 PM
 -- Server version: 5.5.16
 -- Execute create schema for first time alone
  CREATE SCHEMA `todotask` ; 

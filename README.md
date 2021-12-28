@@ -44,6 +44,9 @@ then we can call following Endpoints by using POSTMAN
 ```
   http://localhost:8080/todoservice/todos
 ```
+#### Response
+![alt text](https://github.com/Manigandan21/Todo-CRUD-springboot-mysql/blob/master/src/main/screenshots/gettodos.jpg?raw=true)
+
 ### 8.To Create New Todo use following url with `POST` Request
 ```
   http://localhost:8080/todoservice/todos
@@ -55,12 +58,17 @@ then we can call following Endpoints by using POSTMAN
     "taskName": "test task ",
     "description": "Lorem ipsum task"
   }
-
 ```
+#### Response
+![alt text](https://github.com/Manigandan21/Todo-CRUD-springboot-mysql/blob/master/src/main/screenshots/posttodo.jpg?raw=true)
+
 ### 9.To get a particular todo, use following url with `GET` request type in postman
 ```
   http://localhost:8080/todoservice/todos/<id>
 ```
+#### Response
+![alt text](https://github.com/Manigandan21/Todo-CRUD-springboot-mysql/blob/master/src/main/screenshots/gettodoid.jpg?raw=true)
+
 ### 10.To update Todo in database, use following url with `PUT` request type in postman
 ```
 	http://localhost:8080/todoservice/todos/<id>
@@ -74,9 +82,14 @@ then we can call following Endpoints by using POSTMAN
     "description": "Lorem ipsum task"
   }
 ```
+#### Response
+![alt text](https://github.com/Manigandan21/Todo-CRUD-springboot-mysql/blob/master/src/main/screenshots/puttodo.jpg?raw=true)
+
 ### 11.To delete a particular Todo from database, use following url with `DELETE` request type in postman
 ```
   http://localhost:8080/todoservice/todos/<id>
 ```
+#### Response
+![alt text](https://github.com/Manigandan21/Todo-CRUD-springboot-mysql/blob/master/src/main/screenshots/deletetodo.jpg?raw=true)
 
 #### Note - Replace <id> with actual id 
